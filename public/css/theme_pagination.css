@@ -1,0 +1,30 @@
+/*!
+ * Snap Web Designs v1.0.0 (http://www.snapwebdesigns.co.nz)
+ * Copyright 2016 Snap Web Designs
+ * Theme Pagination Styling
+ */
+/*
+* Pagination
+*/
+.blog-pagination {
+  margin-bottom: 1.5em;
+  text-align: center; }
+
+.pagination_divider {
+  border-bottom: 1px solid #ff8000; }
+
+.pagination > .active > a {
+  background-color: #ff8000;
+  border-color: #ff8000; }
+  .pagination > .active > a:hover {
+    background-color: #ffa64d;
+    border-color: #ffa64d; }
+.pagination > li > a {
+  color: #ff8000;
+  border-color: #ff8000; }
+  .pagination > li > a:hover {
+    color: #fefefe;
+    background-color: #ffa64d;
+    border-color: #ffa64d; }
+
+/*# sourceMappingURL=theme_pagination.css.map */

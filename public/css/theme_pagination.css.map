@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;;GAIG;AAKH;;EAEE;AACF,gBAAiB;EACf,aAAa,EAAC,KAAK;EACnB,UAAU,EAAE,MAAM;;AAGpB,mBAAoB;EAClB,aAAa,EAAE,iBAAsB;;AAOnC,yBAAI;EACF,gBAAgB,ECIG,OAAa;EDHhC,YAAY,ECGO,OAAa;EDDhC,+BAAQ;IACN,gBAAgB,EAAE,OAA0B;IAC5C,YAAY,EAAE,OAA0B;AAO5C,oBAAI;EACF,KAAK,ECTc,OAAa;EDUhC,YAAY,ECVO,OAAa;EDYhC,0BAAQ;IACN,KAAK,EChCY,OAAO;IDiCxB,gBAAgB,EAAE,OAA0B;IAC5C,YAAY,EAAE,OAA0B",
+"sources": ["../scss/theme_pagination.scss","../scss/_snap-custom-theme.scss"],
+"names": [],
+"file": "theme_pagination.css"
+}

@@ -1,0 +1,118 @@
+/*!
+ * Copyright (c) 2018.
+ *
+ *  Snap Web Designs (http://www.snapwebdesigns.co.nz)
+ *  Copyright (c) 2018.
+ *  Author: Mark Barker
+ *  Date: $today.date.
+ *  Customized -
+ *  Created by SNAP Web Designs (http://www.snapwebdesigns.co.nz)
+ *
+ */
+
+// Core variables and mixins
+@import "snap-custom-theme";
+
+/*
+*
+* Portfolio Hover Effect Transition
+*
+*/
+.portfolio {
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+  //margin-bottom: 30px;
+
+  &:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
+  }
+
+  .portfolio-context {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: table-cell;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    opacity: 0;
+    background: lighten($theme-color, 15%);
+    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    .portfolio-content {
+      position: absolute;
+      top: 10%;
+      left: 0;
+      width: 100%;
+      padding: 0 10px;
+    }
+
+    h3 {
+      color: $white-base;
+    }
+
+    p {
+      color: lighten($theme-color, 35%);
+      //font-size: $font-size-base;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 6px 12px;
+      font-size: $font-size-base;
+      text-transform: uppercase;
+      color: $white-base;
+      border: 1px solid $theme-color;
+      margin-top: 4em;
+      background-color: transparent;
+      transform: translateY(-50px);
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        box-shadow: 0 0 5px $white-base;
+      }
+    }
+  }
+}
+
+@media (min-width: 1080px) {
+
+  .portfolio {
+
+    .portfolio-context {
+
+      .portfolio-content {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        padding: 0 40px;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,13 @@
+/*
+ * Copyright (c) 2018.
+ *
+ *  Snap Web Designs (http://www.snapwebdesigns.co.nz)
+ *  Copyright (c) 2018.
+ *  Author: Mark Barker
+ *  Date: $today.date.
+ *  Customized -
+ *  Created by SNAP Web Designs (http://www.snapwebdesigns.co.nz)
+ *
+ */
+
+body:before{white-space:pre;font-family:monospace;content:"Error: $color: null is not a color for `darken'\A         on line 152 of _variables.scss\A         from line 24 of bootstrap-grid.scss"}
